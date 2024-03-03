@@ -1,0 +1,39 @@
+$fontFamily: "Prompt", sans-serif;
+$textPrimaryColor: #555;
+$textSecondaryColor: #333;
+$footerHover: #1f2c38;
+$colorPalette1: #1f2c38;
+$colorPalette2: #67b371;
+$colorPalette3: #76cc81;
+$whiteColor: #fff;
+$backgroundColor: #acccbb;
+
+@mixin desktop {
+  @media screen and (max-width: 84rem) {
+    @content;
+  }
+}
+
+@mixin tabletLandscape {
+  @media screen and (max-width: 75rem) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (max-width: 59rem) {
+    @content;
+  }
+}
+
+@mixin tabletSmall {
+  @media screen and (max-width: 44rem) {
+    @content;
+  }
+}
+
+@mixin phone {
+  @media screen and (max-width: 34rem) {
+    @content;
+  }
+}
