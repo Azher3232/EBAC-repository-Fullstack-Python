@@ -6,7 +6,9 @@ $colorPalette1: #1f2c38;
 $colorPalette2: #67b371;
 $colorPalette3: #76cc81;
 $whiteColor: #fff;
+$greenColor: #c5ebaa;
 $backgroundColor: #acccbb;
+$featureBackgroundColor: #1f2c38;
 
 @mixin desktop {
   @media screen and (max-width: 84rem) {

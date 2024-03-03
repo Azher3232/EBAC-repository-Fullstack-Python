@@ -140,7 +140,7 @@ body {
 }
 
 .btn--form:hover {
-  background-color: #fff;
+  background-color: #c5ebaa;
   color: #555;
 }
 
@@ -411,6 +411,10 @@ body {
   background-color: #35a29f;
 }
 
+.tag--electronicDance {
+  background-color: #ff407d;
+}
+
 .album-title {
   font-size: 2.4rem;
   color: #333;
@@ -506,7 +510,7 @@ body {
   color: #67b371;
   height: 3.2rem;
   width: 3.2rem;
-  background-color: #acccbb;
+  background-color: #1f2c38;
   margin-bottom: 3.2rem;
   padding: 1.6rem;
   border-radius: 50%;
